@@ -1,0 +1,27 @@
+# Виртуальное окружение
+venv/
+ENV/
+
+# Конфиденциальные файлы
+.env
+
+# Alembic миграции (версии)
+app/migrations/versions/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Логи и временные файлы
+*.log
+*.sqlite3
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Системные файлы Windows и macOS
+Thumbs.db
+.DS_Store
